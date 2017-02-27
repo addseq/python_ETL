@@ -3,8 +3,8 @@
 from dateutil import tz
 
 class TimeStampConvertTimeZone(object):
-	  def __init__(self):
-		  pass
+    def __init__(self):
+ 	pass
     
     def convertTimetz(self, from_zone, to_zone, fmt, utcTimeStr=''):
       print 'From: ' + utcTimeStr
